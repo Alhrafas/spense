@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    /* overflow-x: hidden; */
+}
+
+body {
+    /* border: 1px solid red; */
+    /* padding: 1.5rem; */
+    width: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1.5em;
+    display: block;
+    /* text-align: center; */
+    display: flex;
+}
+
+
+header h2 {
+    word-spacing: 2;
+    font-size: 0.85rem;
+    line-height: 25px;
+    color: rgb(233, 232, 232);
+}
+ 
+header h2 a {
+    color: rgb(233, 232, 232);
+    text-decoration: underline;
+}
+
+header h2 i {
+    color: goldenrod;
+}
+
+.text-main {
+    margin-bottom: 5%;
+}
+
+.first, .hero {
+    padding: 1.5em;
+    width: 100%;
+}
+.navbar {
+    display: none;
+}
+.log {
+    display: none;
+}
+.navigate {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.navigate h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.text {
+    /* border: 1px solid red; */
+    margin-bottom: 5%;
+}
+
+.hero {
+    background-color: lightgray;
+}
+
+.payment {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-color: darkgray; */
+}
+
+.hero img {
+    width: 100%;
+    margin-bottom: 5%;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    /* border: 1px solid red; */
+    font-size: 1.8rem;
+    line-height: 40px;
+    margin-bottom: 3%;
+    font-weight: 600;
+}
+
+.hero p {
+    /* border: 1px solid gold; */
+    font-size: 0.9rem;
+    /* list-style: 30px; */
+    opacity: 0.7;
+}
+
+.hero-images {
+    /* border: 1px solid goldenrod; */
+    margin-bottom: 7%;
+}
+
+.hero-images img {
+    /* border: 1px solid greenyellow; */
+    width: 6%;
+    margin-bottom: 1.5%;
+}
+.check, .p-method, .withdraw {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn input {
+    padding: 1em;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+.btn input:focus {
+    border: 2px solid gold;
+    background-color: #f0f0f0;
+}
+.btn button {
+    padding: 0.9em;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn button:hover,
+.btn button:focus {
+    background-color: lightgray;
+}
+.second {
+    /* border: 1px solid gold; */
+    padding: 1em;
+}
+
+.logos-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* grid-template-columns: 2fr; */
+}
+
+.facebook,.dribble,.youtube {
+    /* border: 1px solid red; */
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.pinter,.twitter,.google,.reddit,.slack {
+    /* border: 1px solid red; */
+    display: none;
+}
+.logos-main img {
+    width: 100%;
+}
+
+.money {
+    /* border: 1px solid gold; */
+    background-color: lightgrey;
+    padding: 2em;
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+
+.money h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+}
+
+.money p {
+    /* border: 1px solid red; */
+    line-height: 22px;
+    font-size: 0.99rem;
+    opacity: 0.8;
+    margin-bottom: 5%;
+}
+
+.money a {
+    /* border: 1px solid orangered; */
+    text-decoration: underline;
+    color: rgb(53, 52, 52);
+    text-align: center;
+    align-items: center;
+    word-spacing: 5px;
+}
+
+.money a i {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.images {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.images img {
+    /* border: 1px solid gold; */
+    width: 100%;
+    
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.content h1 {
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.content p {
+    font-size: 0.9rem;
+    line-height: 20px;
+    opacity: 0.6;
+    margin-bottom: 3%;
+}
+
+.content a {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+    font-size: 0.7rem;
+    word-spacing: 1px;
+    /* margin-bottom: 20%; */
+}
+
+.content a i {
+    text-decoration: underline;
+}
+.content img {
+    width: 100%;
+}
+
+footer {
+    /* border: 1px solid tomato; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1em;
+}
+
+.f-first {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.f-first h2 {
+    font-size: 0.8rem;
+    margin-bottom: 3%;
+}
+
+.f-first p {
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: rgb(102, 101, 101);
+}
+
+.social-contact {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.company {
+    grid-row: 1;
+}
+
+.oppor{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.site {
+    grid-row: 2;
+    margin-top: 5%;
+}
+.social-contact h2 {
+    font-size: 0.9rem;
+    margin-bottom: 2%;
+}
+.social-contact a {
+    color: rgb(102, 101, 101);
+    line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+    header h2 {
+        border: 1px solid red;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        /* padding: 3em; */
+    }
+    .second {
+        /* padding: 2em; */
+    }
+
+    .Reward-main h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+    }
+
+    .Reward-main p {
+        font-size: 1.2rem;
+    }
+
+    .hero-images img {
+        width: 3%;
+    }
+
+    .btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .btn input {
+        /* border: 1px solid red; */
+        /* width: 40%; */
+        padding: 1.3em;
+    }
+
+    .btn button {
+        padding: 1.3em;
+    }
+    .logos-main {
+        align-items: center;
+        text-align: center;
+    }
+
+    .facebook, .dribble, .youtube, .pinter, .twitter {
+        display: block;
+        width: 18%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .pinter, .twitter {
+        /* width: %; */
+        margin-bottom: 0%;
+    }
+    .money {
+        padding: 5em;
+        /* border: 1px solid red; */
+        margin-bottom: 3%;
+    }
+    .money h1 {
+        font-size: 3.2rem;
+    }
+    .money p {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+
+    .money a {
+        font-size: 1.2rem;
+        word-spacing: normal;
+        color: black;
+    }
+
+    .content {
+        /* padding: 1.5em; */
+    }
+
+    .content h1 {
+        font-size: 2rem;
+        word-spacing: normal;
+    }
+    .content p {
+        font-size: 1.09rem;
+    }
+    .content a {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 1.5em;
+        display: grid;
+        font-size: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .company {
+        /* border: 1px solid red; */
+        grid-row: 2;
+        grid-column: 2;
+        margin-top: 0;
+        align-items: flex-start;
+    }
+    .f-first h2{
+        font-size: 1rem;
+    }
+    .f-first p {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+    .social-contact,.resource {
+        margin-top: 3%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    body {
+        border: 1px solid red;
+    }
+}
